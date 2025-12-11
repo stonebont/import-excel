@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username   = "stonebon_uhighcharts";
-$password   = "Bismillah123";
-$dbname     = "stonebon_highcharts";
+$username   = "your_username";
+$password   = "your_password";
+$dbname     = "your_db_name";
 
 // Koneksi menggunakan MySQLi Object-Oriented
 $conn = new mysqli($servername, $username, $password, $dbname);
